@@ -3,9 +3,9 @@
  * ko definicije i iterativno vodeći računa o efikasnosti. 
  *  
  * f_n = 4*f_n-r+1 + g_n-r+2 + 2*f_n-r, 
- * 						n >= r, poslednja cifra od n je 1, 2, 3 
+ *         n >= r, poslednja cifra od n je 1, 2, 3 
  * f_n = |-f_(n-r)+ g_(n-r+1)|, 
- * 						n >= r, poslednja cifra od n nije 1, 2, 3 
+ *         n >= r, poslednja cifra od n nije 1, 2, 3 
  * f_n = r + 10 - n, n<r 
  *  
  * g_n = g_n-r+3 + f_n-4, n >= r,n deljivo sa 5 
